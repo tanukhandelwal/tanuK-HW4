@@ -14,6 +14,8 @@
 		596440671A8F3A7E00327B74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596440661A8F3A7E00327B74 /* Images.xcassets */; };
 		5964406A1A8F3A7E00327B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596440681A8F3A7E00327B74 /* Main.storyboard */; };
 		596440761A8F3A7E00327B74 /* tanuK_HW4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 596440751A8F3A7E00327B74 /* tanuK_HW4Tests.m */; };
+		5964408C1A8F3B8D00327B74 /* TodoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 596440881A8F3B8D00327B74 /* TodoList.m */; };
+		5964408D1A8F3B8D00327B74 /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5964408B1A8F3B8D00327B74 /* TodoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,10 @@
 		5964406F1A8F3A7E00327B74 /* tanuK-HW4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tanuK-HW4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		596440741A8F3A7E00327B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		596440751A8F3A7E00327B74 /* tanuK_HW4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tanuK_HW4Tests.m; sourceTree = "<group>"; };
+		596440881A8F3B8D00327B74 /* TodoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoList.m; sourceTree = "<group>"; };
+		596440891A8F3B8D00327B74 /* TodoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoList.h; sourceTree = "<group>"; };
+		5964408A1A8F3B8D00327B74 /* TodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoItem.h; sourceTree = "<group>"; };
+		5964408B1A8F3B8D00327B74 /* TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		596440581A8F3A7E00327B74 /* tanuK-HW4 */ = {
 			isa = PBXGroup;
 			children = (
+				5964408E1A8F3BB300327B74 /* ModelObjects */,
 				5964405B1A8F3A7E00327B74 /* AppDelegate.h */,
 				5964405C1A8F3A7E00327B74 /* AppDelegate.m */,
 				596440601A8F3A7E00327B74 /* ViewController.h */,
@@ -119,6 +126,17 @@
 				596440741A8F3A7E00327B74 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5964408E1A8F3BB300327B74 /* ModelObjects */ = {
+			isa = PBXGroup;
+			children = (
+				596440881A8F3B8D00327B74 /* TodoList.m */,
+				596440891A8F3B8D00327B74 /* TodoList.h */,
+				5964408A1A8F3B8D00327B74 /* TodoItem.h */,
+				5964408B1A8F3B8D00327B74 /* TodoItem.m */,
+			);
+			name = ModelObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +242,8 @@
 				596440621A8F3A7E00327B74 /* ViewController.m in Sources */,
 				5964405F1A8F3A7E00327B74 /* main.m in Sources */,
 				5964405D1A8F3A7E00327B74 /* AppDelegate.m in Sources */,
+				5964408D1A8F3B8D00327B74 /* TodoItem.m in Sources */,
+				5964408C1A8F3B8D00327B74 /* TodoList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

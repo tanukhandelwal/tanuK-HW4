@@ -7,17 +7,23 @@
 //
 
 #import "Document.h"
+#import "TodoList.h"
+#import "ViewController.h"
+
 
 @interface Document ()
+//create a property documentTodoList to be passed to the view controller
+@property TodoList *documentToDoList;
 
 @end
 
 @implementation Document
 
+// This is called when Control + N is clicked. When a new document is created.
 - (instancetype)init {
     self = [super init];
     if (self) {
-        // Add your subclass-specific initialization here.
+        self.documentToDoList = [TodoList new];
     }
     return self;
 }
@@ -33,22 +39,43 @@
 
 - (void)makeWindowControllers {
     // Override to return the Storyboard file name of the document.
-    [self addWindowController:[[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"Document Window Controller"]];
+    
+    NSStoryboard *sb = [NSStoryboard storyboardWithName:@"Main" bundle:nil];
+    NSWindowController *wc = [sb instantiateControllerWithIdentifier:@"Document Window Controller"];
+    //window controller has a content view which is owned by view Controller
+    
+    ViewController *vc = (ViewController*)wc.contentViewController;
+    
+    //The document and view will share same to do list
+    vc.theList = self.documentToDoList;
+    [self addWindowController:wc];
+    
 }
 
+
+//Saving the data using NSkeyArchiever
 - (NSData *)dataOfType:(NSString *)typeName error:(NSError **)outError {
-    // Insert code here to write your document to data of the specified type. If outError != NULL, ensure that you create and set an appropriate error when returning nil.
-    // You can also choose to override -fileWrapperOfType:error:, -writeToURL:ofType:error:, or -writeToURL:ofType:forSaveOperation:originalContentsURL:error: instead.
-    [NSException raise:@"UnimplementedMethod" format:@"%@ is unimplemented", NSStringFromSelector(_cmd)];
-    return nil;
+   
+    NSData *data =[NSKeyedArchiver archivedDataWithRootObject:self.documentToDoList];
+    
+    return data;
+ 
+    
 }
+
+// This is used when control+N is used or when a saved file is opened and not when first time app is run when list is empty
+//This method is called only when opening a file.
 
 - (BOOL)readFromData:(NSData *)data ofType:(NSString *)typeName error:(NSError **)outError {
-    // Insert code here to read your document from the given data of the specified type. If outError != NULL, ensure that you create and set an appropriate error when returning NO.
-    // You can also choose to override -readFromFileWrapper:ofType:error: or -readFromURL:ofType:error: instead.
-    // If you override either of these, you should also override -isEntireFileLoaded to return NO if the contents are lazily loaded.
-    [NSException raise:@"UnimplementedMethod" format:@"%@ is unimplemented", NSStringFromSelector(_cmd)];
-    return YES;
+
+    id object = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    if([object isKindOfClass:[TodoList class]])
+    {
+        self.documentToDoList = object;
+        return YES;
+    }
+    else
+    return NO;
 }
 
 @end

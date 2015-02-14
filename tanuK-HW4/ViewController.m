@@ -7,19 +7,50 @@
 //
 
 #import "ViewController.h"
+#import "TodoList.h"
+#import "TodoItem.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Do any additional setup after loading the view.
+    
+    self.tableView.delegate = self;
+    self.tableView.dataSource= self;
+    self.inputText.delegate = self;
+    self.inputText.enabled = NO;
+    
 }
 
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
-
-    // Update the view, if already loaded.
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
+{
+    NSArray *arr = [self.theList allItems];
+    return [arr count];
 }
+
+-(NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
+{
+    NSTableCellView *nc = [tableView makeViewWithIdentifier:@"Cell" owner:nil];
+
+    NSArray *nsArray = [self.theList allItems];
+    TodoItem *myItem = nsArray[row];
+    nc.textField.stringValue = myItem.title;
+    return nc;
+ 
+}
+
+- (IBAction)addItems:(id)sender {
+    self.inputText.enabled = YES;
+    NSString *myString = self.inputText.stringValue;
+  //  TodoItem *newItem = [TodoItem todoItemWithTitle:@"NewItem"];
+    [self.theList addItemWithTitle:myString];
+    [self.tableView reloadData];
+
+
+}
+
+
+
+
 
 @end
