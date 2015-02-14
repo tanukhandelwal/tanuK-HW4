@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5964405D1A8F3A7E00327B74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5964405C1A8F3A7E00327B74 /* AppDelegate.m */; };
+		5964405F1A8F3A7E00327B74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5964405E1A8F3A7E00327B74 /* main.m */; };
+		596440621A8F3A7E00327B74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596440611A8F3A7E00327B74 /* ViewController.m */; };
+		596440651A8F3A7E00327B74 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 596440641A8F3A7E00327B74 /* Document.m */; };
+		596440671A8F3A7E00327B74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596440661A8F3A7E00327B74 /* Images.xcassets */; };
+		5964406A1A8F3A7E00327B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596440681A8F3A7E00327B74 /* Main.storyboard */; };
+		596440761A8F3A7E00327B74 /* tanuK_HW4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 596440751A8F3A7E00327B74 /* tanuK_HW4Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		596440701A8F3A7E00327B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5964404E1A8F3A7E00327B74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 596440551A8F3A7E00327B74;
+			remoteInfo = "tanuK-HW4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		596440561A8F3A7E00327B74 /* tanuK-HW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tanuK-HW4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5964405A1A8F3A7E00327B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5964405B1A8F3A7E00327B74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5964405C1A8F3A7E00327B74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5964405E1A8F3A7E00327B74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		596440601A8F3A7E00327B74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		596440611A8F3A7E00327B74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		596440631A8F3A7E00327B74 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		596440641A8F3A7E00327B74 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		596440661A8F3A7E00327B74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		596440691A8F3A7E00327B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5964406F1A8F3A7E00327B74 /* tanuK-HW4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tanuK-HW4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		596440741A8F3A7E00327B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596440751A8F3A7E00327B74 /* tanuK_HW4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tanuK_HW4Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		596440531A8F3A7E00327B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5964406C1A8F3A7E00327B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5964404D1A8F3A7E00327B74 = {
+			isa = PBXGroup;
+			children = (
+				596440581A8F3A7E00327B74 /* tanuK-HW4 */,
+				596440721A8F3A7E00327B74 /* tanuK-HW4Tests */,
+				596440571A8F3A7E00327B74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		596440571A8F3A7E00327B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				596440561A8F3A7E00327B74 /* tanuK-HW4.app */,
+				5964406F1A8F3A7E00327B74 /* tanuK-HW4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		596440581A8F3A7E00327B74 /* tanuK-HW4 */ = {
+			isa = PBXGroup;
+			children = (
+				5964405B1A8F3A7E00327B74 /* AppDelegate.h */,
+				5964405C1A8F3A7E00327B74 /* AppDelegate.m */,
+				596440601A8F3A7E00327B74 /* ViewController.h */,
+				596440611A8F3A7E00327B74 /* ViewController.m */,
+				596440631A8F3A7E00327B74 /* Document.h */,
+				596440641A8F3A7E00327B74 /* Document.m */,
+				596440661A8F3A7E00327B74 /* Images.xcassets */,
+				596440681A8F3A7E00327B74 /* Main.storyboard */,
+				596440591A8F3A7E00327B74 /* Supporting Files */,
+			);
+			path = "tanuK-HW4";
+			sourceTree = "<group>";
+		};
+		596440591A8F3A7E00327B74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5964405A1A8F3A7E00327B74 /* Info.plist */,
+				5964405E1A8F3A7E00327B74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		596440721A8F3A7E00327B74 /* tanuK-HW4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				596440751A8F3A7E00327B74 /* tanuK_HW4Tests.m */,
+				596440731A8F3A7E00327B74 /* Supporting Files */,
+			);
+			path = "tanuK-HW4Tests";
+			sourceTree = "<group>";
+		};
+		596440731A8F3A7E00327B74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				596440741A8F3A7E00327B74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		596440551A8F3A7E00327B74 /* tanuK-HW4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596440791A8F3A7E00327B74 /* Build configuration list for PBXNativeTarget "tanuK-HW4" */;
+			buildPhases = (
+				596440521A8F3A7E00327B74 /* Sources */,
+				596440531A8F3A7E00327B74 /* Frameworks */,
+				596440541A8F3A7E00327B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tanuK-HW4";
+			productName = "tanuK-HW4";
+			productReference = 596440561A8F3A7E00327B74 /* tanuK-HW4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5964406E1A8F3A7E00327B74 /* tanuK-HW4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5964407C1A8F3A7E00327B74 /* Build configuration list for PBXNativeTarget "tanuK-HW4Tests" */;
+			buildPhases = (
+				5964406B1A8F3A7E00327B74 /* Sources */,
+				5964406C1A8F3A7E00327B74 /* Frameworks */,
+				5964406D1A8F3A7E00327B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				596440711A8F3A7E00327B74 /* PBXTargetDependency */,
+			);
+			name = "tanuK-HW4Tests";
+			productName = "tanuK-HW4Tests";
+			productReference = 5964406F1A8F3A7E00327B74 /* tanuK-HW4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5964404E1A8F3A7E00327B74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "UW PCE learning";
+				TargetAttributes = {
+					596440551A8F3A7E00327B74 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5964406E1A8F3A7E00327B74 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 596440551A8F3A7E00327B74;
+					};
+				};
+			};
+			buildConfigurationList = 596440511A8F3A7E00327B74 /* Build configuration list for PBXProject "tanuK-HW4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5964404D1A8F3A7E00327B74;
+			productRefGroup = 596440571A8F3A7E00327B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				596440551A8F3A7E00327B74 /* tanuK-HW4 */,
+				5964406E1A8F3A7E00327B74 /* tanuK-HW4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		596440541A8F3A7E00327B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596440671A8F3A7E00327B74 /* Images.xcassets in Resources */,
+				5964406A1A8F3A7E00327B74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5964406D1A8F3A7E00327B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		596440521A8F3A7E00327B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596440651A8F3A7E00327B74 /* Document.m in Sources */,
+				596440621A8F3A7E00327B74 /* ViewController.m in Sources */,
+				5964405F1A8F3A7E00327B74 /* main.m in Sources */,
+				5964405D1A8F3A7E00327B74 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5964406B1A8F3A7E00327B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596440761A8F3A7E00327B74 /* tanuK_HW4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		596440711A8F3A7E00327B74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 596440551A8F3A7E00327B74 /* tanuK-HW4 */;
+			targetProxy = 596440701A8F3A7E00327B74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		596440681A8F3A7E00327B74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				596440691A8F3A7E00327B74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		596440771A8F3A7E00327B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		596440781A8F3A7E00327B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5964407A1A8F3A7E00327B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tanuK-HW4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5964407B1A8F3A7E00327B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tanuK-HW4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5964407D1A8F3A7E00327B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tanuK-HW4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tanuK-HW4.app/Contents/MacOS/tanuK-HW4";
+			};
+			name = Debug;
+		};
+		5964407E1A8F3A7E00327B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tanuK-HW4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tanuK-HW4.app/Contents/MacOS/tanuK-HW4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		596440511A8F3A7E00327B74 /* Build configuration list for PBXProject "tanuK-HW4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596440771A8F3A7E00327B74 /* Debug */,
+				596440781A8F3A7E00327B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596440791A8F3A7E00327B74 /* Build configuration list for PBXNativeTarget "tanuK-HW4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5964407A1A8F3A7E00327B74 /* Debug */,
+				5964407B1A8F3A7E00327B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5964407C1A8F3A7E00327B74 /* Build configuration list for PBXNativeTarget "tanuK-HW4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5964407D1A8F3A7E00327B74 /* Debug */,
+				5964407E1A8F3A7E00327B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5964404E1A8F3A7E00327B74 /* Project object */;
+}
